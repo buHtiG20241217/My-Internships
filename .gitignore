@@ -1,0 +1,5 @@
+echo "*.csv" >> .gitignore
+# Or be more specific:
+echo "2.Data Science/1.1stop AI/Internship Project 2 - Credit EDA/*.csv" >> .gitignore
+git add .gitignore
+git commit -m "Ignore large CSV files"
